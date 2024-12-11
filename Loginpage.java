@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.LoadableComponent;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Loginpage extends BaseClass   {
-	//page object modal
+	//page object modal	
 	//private BaseClass base;
 	//private WebDriver driver;
 	

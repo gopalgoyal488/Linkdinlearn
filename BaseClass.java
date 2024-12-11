@@ -18,9 +18,10 @@ import org.openqa.selenium.interactions.Actions;
 	public class BaseClass {
 	    
 		protected WebDriver driver;
+		
+		//baseclass
 
 	    // Initialize WebDriver
-		// this is QA test
 	    public BaseClass(WebDriver driver) {
 	
 	       this.driver= driver;

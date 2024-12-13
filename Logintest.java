@@ -49,6 +49,10 @@ public void loading(){
 		loginpage =new Loginpage(driver);
 		
 		loginpage.forgtpass(mailID);
+		
+		//this is qa test
+		
+		//add comment after stagin
 	
 	
 	}//

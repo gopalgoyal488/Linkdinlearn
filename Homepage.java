@@ -39,6 +39,7 @@ public class Homepage extends BaseClass {
         waitForElementVisible(Username);
      //   driver.findElement(Username).click();
         driver.findElement(Username).sendKeys(str);
+        //this is qa test 
         
         }
         

@@ -27,7 +27,7 @@ public class BaseTestcase extends LoadableComponent<BaseTestcase> {
 
    @AfterMethod
     public void tearDown() {
-        driver.close();
+       // driver.close();
       
     }
 

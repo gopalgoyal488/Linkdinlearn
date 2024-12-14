@@ -13,6 +13,8 @@ public class Homepage extends BaseClass {
 	
 	//private WebDriver driver;
 	
+	// we got driver from baseclass
+	
 	private BaseClass base;
 	private By Username= By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]");
 	private By Admin = By.linkText("Admin");

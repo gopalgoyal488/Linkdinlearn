@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 
 public class BaseTestcase extends LoadableComponent<BaseTestcase> {
-
+// base test case
 	protected  WebDriver driver;
 	@BeforeMethod
     public  void setUp() {

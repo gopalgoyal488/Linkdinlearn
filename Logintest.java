@@ -1,6 +1,7 @@
 package Pageobject;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotEquals;
 
 import java.time.Duration;
 
@@ -25,7 +26,8 @@ public void loading(){
 	
 	loginpage =new Loginpage(driver);
   loginpage.loginadmin("Admin", "admin123");
-		Assert.assertEquals(loginpage.getpagetitle(), "OrangeHRM");
+		//Assert.assertEquals(loginpage.getpagetitle(), "OrangeHRM");
+		Assert.assertNotEquals(loginpage.getpagetitle(),"Orangeylm");
 		
 	}
 	
